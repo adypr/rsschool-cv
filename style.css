@@ -80,6 +80,21 @@ code {
   padding: 0 20px;
 }
 
+.block {
+  position: relative;
+}
+
+.block::after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  content: "";
+  width: 0;
+  height: 0;
+  border-bottom: 25px solid #7b8587;
+  border-left: 25px solid transparent;
+}
+
 .padding-x {
   padding-left: 30px;
   padding-right: 30px;
@@ -111,21 +126,6 @@ code {
 
 .header__nav li {
   margin: 15px 20px 15px 20px;
-}
-
-.block {
-  position: relative;
-}
-
-.block::after {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  content: "";
-  width: 0;
-  height: 0;
-  border-bottom: 25px solid #7b8587;
-  border-left: 25px solid transparent;
 }
 
 .summary__contact {
