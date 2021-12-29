@@ -40,6 +40,7 @@
 	};
 	export  default  isSafeQueens;
 	```
+	
 	* *[FreeCodeCamp](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/telephone-number-validator)*
 	```js
 	function telephoneCheck(str) {
