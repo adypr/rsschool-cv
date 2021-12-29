@@ -66,7 +66,7 @@
 8. **Education:**
 *2001* - Moscow State University of Design and Technology, designing products of light industry.
 
-9. **English:**  level A2.
+9. **English:**  level A2
 
 ***
 ***
