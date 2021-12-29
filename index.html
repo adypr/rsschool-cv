@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mrs+Sheppards%7CNanum+Gothic+Coding%7COswald&amp;display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Resume</title>
+  </head>
+  <body>
+    <header class="wrapper">
+      <div class="header__name">
+        <h1>Aida Y</h1>
+      </div>
+      <nav class="header__nav">
+        <ul>
+          <li><a href="#summary">Summary</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#examples">Examples</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main  class="wrapper">
+      <section class="block" id="summary">
+        <h2>Summary</h2>
+        <div class="summary__contact padding-x">
+          <div class="summary__img"><img src="https://placem.at/places?h=150&amp;w=150&amp;txt=Aida&amp;random=1" width="150" height="150" alt="picture"></div>
+          <ul>
+            <li><a href="mailto:macanel@yandex.ru"><i><b>E-mail:</b></i> macanel@yandex.ru</a></li>
+            <li><a href="https://discordapp.com/"><i><b>Discord:</b></i> Aida Y#1789</a></li>
+            <li><a href="https://skype.com/"><i><b>Skype:</b></i> live:workady2015</a></li>
+            <li><a href="https://yandex.ru/maps/-/CGcOjYog"><i><b>Location:</b></i> Moscow, Russia</a></li>
+          </ul>
+        </div>
+        <article class="padding-x">
+          <h3>About me</h3>
+          <p>My goal is to become a junior front-end developer and grow as a professional in this field. Discipline and an analytical approach to obtaining knowledge, the ability to work on my own and high motivation will allow me to quickly master the necessary technology stack. <br>I will try to join the new team as soon as possible and become its useful participant.</p>
+        </article>
+      </section>
+      <section class="skills block" id="skills">
+        <h2>Skills</h2>
+        <h3 class="padding-x">List of skills</h3>
+        <ul class="skills__list padding-x">
+          <li>html</li>
+          <li>css</li>
+          <li>js</li>
+          <li>php</li>
+          <li>gulp</li>
+          <li>scss</li>
+          <li>pug</li>
+          <li>photoshop</li>
+          <li>coreldraw</li>
+          <li>illustrator</li>
+        </ul>
+        <div class="padding-x">
+          <h3>Main skills</h3>
+          <table class="skills__table">
+            <tr>
+              <th>Skill</th>
+              <th>Level</th>
+            </tr>
+            <tr>
+              <td>CorelDraw</td>
+              <td><div class="skills__level"><div class="skills__bar coreldraw">80%</div></div></td>
+            </tr>
+            <tr>
+              <td>Photoshop</td>
+              <td><div class="skills__level"><div class="skills__bar photoshop">60%</div></div></td>
+            </tr>
+            <tr>
+              <td>HTML/CSS</td>
+              <td><div class="skills__level"><div class="skills__bar html">40%</div></div></td>
+            </tr>
+            <tr>
+              <td>JavaScript</td>
+              <td><div class="skills__level"><div class="skills__bar js">30%</div></div></td>
+            </tr>
+            <tr>
+              <td>PHP</td>
+              <td><div class="skills__level"><div class="skills__bar php">10%</div></div></td>
+            </tr>
+            <tr>
+              <td>Git</td>
+              <td><div class="skills__level"><div class="skills__bar git">10%</div></div></td>
+            </tr>
+          </table>
+        </div> 
+      </section>
+      <section class="block" id="examples">
+        <h2>Code examples</h2>
+        <ul class="examples__list padding-x">
+          <li>
+            <a href="https://ru.hexlet.io/challenges/js_sequences_queens"><em>Hexlet</em></a>
+            <div class="examples__code">
+              <pre><code>brokeQueens = 0;
+const  isSafeQueens = (list) => {
+    if (isEmpty(tail(list))) {
+        return  brokeQueens === 0;
+    }
+    const  mainelem = head(list);
+    const  lines = reduce((elem, acc1) => {
+        if ((mainelem === elem) || (elem === mainelem - acc1) || (elem === mainelem + acc1)) {
+            brokeQueens += 1;
+        }
+        return  acc1 + 1;
+    }, 1, tail(list));
+    return  isSafeQueens(tail(list));
+};
+export  default  isSafeQueens;
+</code></pre>
+            </div>
+          </li>
+          <li>
+            <a href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/telephone-number-validator"><em>FreeCodeCamp</em></a>
+            <div class="examples__code">
+              <pre><code>telephoneCheck(str) {
+ return /(^1? ?\(\d{3}\)( ?\-?)\d{3}( ?\-?)\d{4})$|^1? ?\d{3} ?\-?\d{3} ?\-?\d{4}$/g.test(str);
+}
+</code></pre>
+            </div>
+          </li>
+          <li>
+            <a href="https://github.com/adypr/stylist-landing"><em>Landing</em></a>
+            <div class="examples__code">
+              <pre><code>gallery(photos)
+ul.gallery__table(data-masonry='{ "itemSelector": ".gallery__cell", "columnWidth": ".gallery__cell", "isFitWidth": true, "gutter": 7 }')
+    each photo in photos
+        li.gallery__cell
+            a(class="gallery__link" data-fancybox='images' href=photo[0] data-caption=photo[2] aria-label=photo[2])
+                img(class="gallery__img" src=photo[1] alt=photo[2])
+</code></pre>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="experience block" id="experience">
+        <h2>Experience</h2>
+        <ul class="experience_list padding-x">
+          <li><em>2019 - </em><span>Hexlet.</span><a href="https://ru.hexlet.io/u/user-75c805d6f57b53df"> Frontend JavaScript Course</a></li>
+          <li><em>2019 - </em><span>FreeCodeCamp.</span><a href="https://www.freecodecamp.org/fcc32748869-940a-4adf-808b-e19cbb7e14af"> Responsive Web Design Certification and Javascript Algorithms And Data Structures Certification</a></li>
+          <li><em>2020 - </em><span>HTML Academy.</span><a href="https://htmlacademy.ru/profile/id582547"> Interactive courses</a></li>
+        </ul>
+      </section>
+      <section class="education block" id="education">
+        <h2>Education</h2>
+        <p class="padding-x"><em>2001 - </em><span>Moscow State University of Design and Technology, designing products of light industry.</span></p>
+      </section>
+      <section class="english block">
+        <h2>English</h2>
+        <p class="padding-x">Level A2</p>
+      </section>
+    </main>
+    <footer class="wrapper footer">
+      <ul class="footer__contacts">
+        <li class="year">
+          <b>2021</b>
+        </li>
+        <li>
+          <a class="footer__link" href="https://github.com/adypr">
+            <svg class="icon github" width="50" height="35">
+              <use xlink:href="sprite.svg#github"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://rs.school/js/" > 
+            <svg class="icon rsschool" width="70" height="35">
+              <use xlink:href="sprite.svg#rs"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
