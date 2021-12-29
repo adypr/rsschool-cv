@@ -2,14 +2,14 @@
 ![img]( https://placem.at/places?h=150&w=150&txt=Aida&random=1)
 
 1.  **Name:**  Aida Y
-3.  **Contact Info:**
+2.  **Contact Info:**
 	  * *E-mail*: macanel@yandex.ru
 	  * *Discord*: Aida Y#1689
 	  * *Skype*: live:workady2015
 	  * *Location*: Moscow, Russia
-4.  **Summary**: My goal is to become a junior front-end developer and grow as a professional in this field. Discipline and an analytical approach to obtaining knowledge, the ability to work on my own and high motivation will allow me to quickly master the necessary technology stack. I will try to join the new team as soon as possible and become its useful participant.
+3.  **Summary**: My goal is to become a junior front-end developer and grow as a professional in this field. Discipline and an analytical approach to obtaining knowledge, the ability to work on my own and high motivation will allow me to quickly master the necessary technology stack. I will try to join the new team as soon as possible and become its useful participant.
 
-5.  **Skills:**
+4.  **Skills:**
 
 	|  Skill | Level |
 	|--|--|
@@ -20,7 +20,7 @@
 	|  PHP | 1 / 10 |
 	|  Git | 1 / 10 |
 
-6. **Code examples:**
+5. **Code examples:**
 	* *[Hexlet](https://ru.hexlet.io/challenges/js_sequences_queens)*
 	
 	```js
@@ -41,6 +41,7 @@
 	export  default  isSafeQueens;
 	```
 	
+
 	* *[FreeCodeCamp](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/telephone-number-validator)*
 	```js
 	function telephoneCheck(str) {
@@ -48,6 +49,7 @@
 	}
 	```
 	
+
 	* *[Landing](https://github.com/adypr/stylist-landing)*
 	```pug
 	mixin gallery(photos)
@@ -59,14 +61,14 @@
 	  ```  
 	  
 	  
-7. **Experience:**
+6. **Experience:**
 	* *2019* - Hexlet. [Frontend JavaScript Course](https://ru.hexlet.io/u/user-75c805d6f57b53df)
 	* *2019* - FreeCodeCamp. [Responsive Web Design Certification and Javascript Algorithms And Data Structures Certification](https://www.freecodecamp.org/fcc32748869-940a-4adf-808b-e19cbb7e14af)
 
-8. **Education:**
-*2001* - Moscow State University of Design and Technology, designing products of light industry.
+7. **Education:**
+*2001* - Moscow State University of Design and Technology, designing products of light industry
 
-9. **English:**  level A2.
+8. **English:**  level A2.
 
 ***
 ***
